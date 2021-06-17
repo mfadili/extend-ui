@@ -86,7 +86,7 @@ module.exports = async srv => {
 
   //* Emnterprise Messaging Configuration *//
   /* For Use Productive use */
-  messaging.on('referenceappscf/emsf/1909/sfemessage', async msg => {
+  messaging.on('orgeventmeshmo/sfmission/abcd/sfemessage', async msg => {
     const message = msg.headers.message,
       employeeId = msg.headers.employeeId,
       managerId = msg.headers.managerId,
